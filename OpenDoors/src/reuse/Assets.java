@@ -31,29 +31,29 @@ public class Assets {
 	public static Image HEALTH_BAR_BASE;
 
 	public Assets() throws SlickException {
-		TILE_ONE = new Image("bin/data/grass.png");
-		ROCK = new Image("bin/data/new rock.png");
+		TILE_ONE = new Image("data/grass.png");
+		ROCK = new Image("data/new rock.png");
 
-		CREATURE = new Image("bin/data/creature.png");
+		CREATURE = new Image("data/creature.png");
 
-		PLAYER = new Image("bin/data/overlap test.png");
+		PLAYER = new Image("data/overlap test.png");
 
-		FENCE = new Image("bin/data/fence.png");
+		FENCE = new Image("data/fence.png");
 
-		TREE = new Image("bin/data/Tree no shadow.png");
+		TREE = new Image("data/Tree no shadow.png");
 		
-		DOOR = new Image("bin/data/door.png");
-		KEY = new Image("bin/data/key.png");
+		DOOR = new Image("data/Door.png");
+		KEY = new Image("data/key.png");
 
-		SHADOW = new Image("bin/data/shadow.png");
-		BULLET = new Image("bin/data/Bullet.png");
-		EXPLOSION = new Image("bin/data/splosion.png");
-		MINECRAFT = new Image("bin/data/minecraft.png");
+		SHADOW = new Image("data/shadow.png");
+		BULLET = new Image("data/Bullet.png");
+		EXPLOSION = new Image("data/splosion.png");
+		MINECRAFT = new Image("data/minecraft.png");
 
-		TORCH = new Image("bin/data/torch.png");
-		IRISH_DRESS = new Image("bin/data/irishdress.png");
+		TORCH = new Image("data/torch.png");
+		IRISH_DRESS = new Image("data/irishdress.png");
 
-		HEALTH_BAR = new Image("bin/data/healthBar.png");
-		HEALTH_BAR_BASE = new Image("bin/data/healthBarBase.png");
+		HEALTH_BAR = new Image("data/healthBar.png");
+		HEALTH_BAR_BASE = new Image("data/healthBarBase.png");
 	}
 }
